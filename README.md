@@ -1,4 +1,4 @@
-# Repositorio Git SDAW_3332
+git log# Repositorio Git SDAW_3332
 
 ## Información general
 
@@ -179,5 +179,17 @@ node_modules/
 https://github.com/Danidelaosa/SDAW_3332
 
 # Cambio de prueba desde rama1
+
+## Información técnica añadida desde rama1
+En esta sección se describen los principales comandos de Git utilizados durante la práctica:
+- git init: Inicializa un repositorio Git.
+- git add: Añade archivos al área de preparación.
+- git commit: Guarda los cambios en el historial de Git.
+- git branch: Permite crear y listar ramas.
+- git merge: Fusiona ramas.
+- git push: Envía commits al repositorio remoto.
+
+## Información técnica añadida desde rama2
+Commit más reciente: f3a1b2c Añadida explicación de comandos Git en README.md desde rama1
 
 
