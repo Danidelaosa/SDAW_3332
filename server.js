@@ -4,7 +4,10 @@ const path = require('path');
 
 const PORT = 3000;
 
-// Ruta para el index.html
+// Servir archivos estáticos (script.js)
+app.use(express.static(__dirname));
+
+// Ruta para index.html
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
@@ -12,3 +15,4 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Servidor funcionando en http://localhost:${PORT}`);
 });
+
